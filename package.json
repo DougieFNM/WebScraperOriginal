@@ -1,0 +1,37 @@
+{
+  "name": "hearthbrandscraper",
+  "version": "1.0.0",
+  "description": "Good Marketing Group project built to scrape websites and data files for the Hearth industry in order to import into current Catalog and Ecommerce sites but also to generalize data and information accross the hearth Industry",
+  "main": "gmgBrandScraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Hearth",
+    "Scraping",
+    "Database",
+    "DB",
+    "Fireplaces",
+    "Gas",
+    "Stoves",
+    "Hearth.",
+    "Export"
+  ],
+  "author": "Doug Richardson",
+  "license": "SEE LICENSE IN license.txt",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "convert-csv-to-json": "^2.0.0",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "got": "^12.0.2",
+    "node-create-csv": "^1.0.0",
+    "objects-to-csv": "^1.3.6",
+    "puppeteer": "^13.1.2",
+    "puppeteer-extra": "^3.2.3",
+    "qs": "^6.11.0"
+  },
+  "devDependencies": {
+    "electron": "^6.1.12"
+  }
+}
